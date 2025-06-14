@@ -16,10 +16,10 @@ I've started learning LangChain to build intelligent applications like chatbots,
 
 | Folder | Description |
 |--------|-------------|
-| `01-basic-llm-chain` | Intro to LLMChain with a simple prompt template |
-| `02-chat-memory` | Using ConversationBufferMemory to retain dialogue |
-| `03-rag-pdf-qa` | Load PDFs, create vector DB, and query with retrieval |
-| `04-agent-with-tools` | Use agents to call tools like calculator or search |
+| `01_chat_models_prompts` | Build a simple LLM application with prompt templates and chat models |
+| `02_semantic_search` | Build a semantic search engine over a PDF with document loaders, embedding models, and vector stores |
+| `03_classification` | Classify text into categories or labels using chat models with structured outputs |
+| `04_extraction` | Extract structured data from text and other unstructured media using chat models and few-shot examples |
 | `notes/` | Concepts, comparisons, prompt experiments |
 
 ---
@@ -27,7 +27,7 @@ I've started learning LangChain to build intelligent applications like chatbots,
 ## 🛠️ Technologies Used
 
 - [LangChain](https://www.langchain.com/)
-- OpenAI LLM (or local models)
+- Cohere LLM (https://cohere.com/)
 - Chroma / FAISS Vector DB
 - Python 3.10+
 - Streamlit (optional for UI)
